@@ -1,4 +1,4 @@
-# Python dependencies for PriWiLoc-Open.
+# Python dependencies for ATLAS-Open.
 # Install with: uv pip install -r requirements.txt
 #
 # Core dependencies used directly by this project (not pinned from the
