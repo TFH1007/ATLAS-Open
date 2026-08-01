@@ -10,7 +10,7 @@ defaults:
 
 # Experiment settings
 experiment:
-  name: "priwiloc_experiment"
+  name: "atlas_experiment"
   seed: 42
   max_epochs: 3
   learning_rate: 5e-5
