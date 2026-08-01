@@ -75,7 +75,6 @@ def solve_ray_intersection(
     Solves the intersection point of n rays in a 2D plane. The rays start from the locations of the Access Points (APs),
     and their angles (in map frame, w.r.t to horizontal axis) are given by theta, which represents the Angle of Arrival (AoA)
     in the map frame. The confidence score indicates the importance of each AoA measurement in the least squares problem.
-    Reference: https://www.notion.so/DLoc-Design-37e43b97634d4c848b237ae06fe08ac4?pvs=4
 
     Args:
         ap_xy: APs location in map frame. A tensor of shape (n_ap, 2).
@@ -136,7 +135,6 @@ def solve_ray_intersection_batch(
 ) -> torch.Tensor:
     """
     See docstring from above function for more details. This function performs the same calculation in batch mode.
-    Reference: https://www.notion.so/DLoc-Design-37e43b97634d4c848b237ae06fe08ac4?pvs=4
 
     Args:
         ap_xy: AP locations in map frame. A tensor of shape (n_ap, 2).
