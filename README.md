@@ -1,4 +1,4 @@
-# PriWiLoc-Open
+# ATLAS Open Source
 
 Open-Sourced Codebase for ATLAS: Autonomous Triangulation with Localized Access-Point Sensing for Decentralized Wi-Fi Localization
 
