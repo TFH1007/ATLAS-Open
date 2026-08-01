@@ -1,7 +1,7 @@
 # @package _global_
 logger:
   name: "wandb"
-  project_name: "priwiloc"
+  project_name: "ATLAS"
   save_dir: "./logs"
   
   # WandB-specific settings
