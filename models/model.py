@@ -192,7 +192,7 @@ class TrigAOAResNetModel(pl.LightningModule):
         # construct ground truth label
         gt_label: GTlabel = get_batch_gt_label(batch)
 
-        # Compute geometric loss (PriWiLoc paper: cos + sin + location)
+        # Compute geometric loss (ATLAS paper: cos + sin + location)
         loss_all: LossTerms = compute_geometric_loss(model_pred, gt_label)
 
         # log the loss
